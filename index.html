@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZN - Catálogo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('cznlogotipo.png') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 10px;
+            background-color: #3a003a;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            margin-bottom: 20px;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+        .catalogo {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .produto {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+            width: 90%;
+            max-width: 400px;
+            padding: 15px;
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .produto h2 {
+            font-size: 22px;
+            color: #222;
+            margin: 10px 0 5px 0;
+        }
+        .produto p {
+            color: #555;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .preco {
+            color: green;
+            font-weight: bold;
+            margin-top: 8px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>CZN - Catálogo</h1>
+
+<div class="catalogo">
+    <div class="produto">
+        <img src="foto1.jpg" alt="Produto 1">
+        <h2>Nome do Produto 1</h2>
+        <p>Tamanhos: P, M, G, GG</p>
+        <p class="preco">R$ --,--</p>
+    </div>
+
+    <div class="produto">
+        <img src="foto2.jpg" alt="Produto 2">
+        <h2>Nome do Produto 2</h2>
+        <p>Tamanhos: P, M, G, GG</p>
+        <p class="preco">R$ --,--</p>
+    </div>
+
+    <div class="produto">
+        <img src="foto3.jpg" alt="Produto 3">
+        <h2>Nome do Produto 3</h2>
+        <p>Tamanhos: P, M, G, GG</p>
+        <p class="preco">R$ --,--</p>
+    </div>
+</div>
+
+</body>
+</html>
